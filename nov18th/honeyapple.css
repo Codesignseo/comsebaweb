@@ -1,0 +1,30 @@
+.imageslot{
+    width : 800px;
+    height: 400px;
+    background-image: url("https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/bunch%20of%20rotten%20apples-7617-62e63f83af8fbd0bd98087997d43a80e@1x.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    position:relative;
+    z-index: 1;
+}
+
+.imageslot .box{
+    width: 800px;
+    height: 180px;
+    background-color: gray;
+    opacity: 0.7;
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+
+span{
+    color: white;
+    font-weight:bolder;
+    font-size: 37px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    z-index: 3;
+}
