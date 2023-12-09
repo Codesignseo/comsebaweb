@@ -29,8 +29,8 @@
 //   alert("속합니다");
 // }
 
-let principal = 51;
-while (principal > 50) {
-  --principal;
-  alert("still fat as fuck");
-}
+// let principal = 51;
+// while (principal > 50) {
+//   --principal;
+//   alert("still fat as fuck");
+// }
