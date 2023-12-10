@@ -56,7 +56,47 @@
 // }
 // alert("합계: " + sum);
 
-for (let i = 0; i <= 10; i++) {
-  if (i % 2 == 1) continue;
-  alert(i);
+// for (let i = 0; i <= 10; i++) {
+//   if (i % 2 == 1) continue;
+//   alert(i);
+// }
+
+// let i = 0;
+// for (let j = 0; j <= 3; j++) {
+//   for (i = 0; i <= 3; i++) {
+//     alert("(" + j + "," + i + ")");
+//   }
+// }
+
+// let i = 3;
+// while (i) {
+//   alert(i--);
+// }
+
+// let i = 0;
+// while (i++ < 5) alert(i);
+
+// for (i = 2; i <= 10; i++) {
+//   if (i % 2 == 1) continue;
+//   alert(i);
+// }
+
+// for (let i = 0; i < 3; i++) {
+//   alert(`number ${i}!`);
+// }
+
+// let i = 0;
+// while (i < 3) {
+//   alert(`number ${i}!`);
+//   i++;
+// }
+
+while (true) {
+  let answer = +prompt("숫자 입력해봐 등신아", "");
+
+  if (answer <= 100) alert("다시시도");
+  else {
+    alert("ok");
+    break;
+  }
 }
