@@ -31,6 +31,32 @@
 
 // let principal = 51;
 // while (principal > 50) {
-//   --principal;
+//   principal--;
 //   alert("still fat as fuck");
 // }
+
+// let i = 1;
+// do {
+//   alert("what up bro");
+//   i++;
+// } while (i < 3);
+
+// for (let i=1; i<3; i++) {
+//   alert('hmmm');
+// }
+
+// let sum = 0;
+
+// while (true) {
+//   let value = +prompt("숫자를 입력하세요", "");
+//   alert(value);
+//   if (!value) break;
+
+//   sum += value;
+// }
+// alert("합계: " + sum);
+
+for (let i = 0; i <= 10; i++) {
+  if (i % 2 == 1) continue;
+  alert(i);
+}
