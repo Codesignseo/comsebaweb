@@ -91,12 +91,12 @@
 //   i++;
 // }
 
-while (true) {
-  let answer = +prompt("숫자 입력해봐 등신아", "");
+// while (true) {
+//   let answer = +prompt("숫자 입력해봐 등신아", "");
 
-  if (answer <= 100) alert("다시시도");
-  else {
-    alert("ok");
-    break;
-  }
-}
+//   if (answer <= 100) alert("다시시도");
+//   else {
+//     alert("ok");
+//     break;
+//   }
+// }
