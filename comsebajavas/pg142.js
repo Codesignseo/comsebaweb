@@ -57,3 +57,7 @@
 //     alert("try again");
 //   }
 // }
+
+// arr = [undefined, "orange", "pineapple"];
+// delete arr[0];
+// alert(arr);

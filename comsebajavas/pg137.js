@@ -33,8 +33,8 @@
 // const MATRIX = matrix[0];
 // alert(MATRIX[0]);
 
-let arr = [1, 2, 3, [5, 6], [[[[[[[[[1]]]]]]]]], "3"];
-alert(arr.toString());
+// let arr = [1, 2, 3, [5, 6], [[[[[[[[[1]]]]]]]]], "3"];
+// alert(arr.toString());
 // alert(String(arr) === "1,2,3,5,6,1");
 
 // let fruits = ["사과", "배", "오렌지"];
